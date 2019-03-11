@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-
+        //remind me to make a method for the conditionals
         int pickedNumber;
         Scanner keyboard;
         keyboard = new Scanner(System.in);
