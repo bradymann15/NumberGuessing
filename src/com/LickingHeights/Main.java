@@ -8,5 +8,7 @@ public class Main {
 
         pickedNumber = (int)(Math.random()*100);
 
+        System.out.println("Guess a number between 1 and 100");
+
     }
 }
