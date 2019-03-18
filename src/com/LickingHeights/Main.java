@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        //remind me to make a method for the conditionals
         int pickedNumber;
         Scanner keyboard;
         keyboard = new Scanner(System.in);
@@ -15,5 +14,15 @@ public class Main {
         int guess1;
         guess1 = keyboard.nextInt();
 
+
+
+        }
+    public static int guess(int pickedNumber, int guess1){
+        if (guess1==pickedNumber)
+            return "Correct"
+
     }
-}
+        }
+
+
+
