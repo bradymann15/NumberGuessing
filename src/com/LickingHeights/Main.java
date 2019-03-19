@@ -23,22 +23,19 @@ public class Main {
 
 
         }
-    public static int guess(int pickedNumber, int guess1){
+    public static String guess(int pickedNumber, int guess1){
         if (pickedNumber>guess1){
-            System.out.println("Incorrect! The number you guessed is too small.");
+            return "Incorrect! The number you guessed is too small.";
         }
         else if (pickedNumber<guess1){
-            System.out.println();
+            return "Incorrect! The number you guessed is too big";
         }
         else {
-            System.out.println("Correct! The number was "+pickedNumber+". Thanks for playing!");
-        System.exit(0);
+            return "Correct! The number was "+pickedNumber+". Thanks for playing!";
+
         }
-
-
-
     }
-        }
+}
 
 
 
